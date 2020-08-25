@@ -50,6 +50,17 @@
   max-width: 400px;
 }
 
+.my {
+  margin-left: 15%;
+  width:60%;
+}
+
+.title {
+  font-size: 48px;
+  color: white;
+  font-stretch: expanded;
+}
+
 .todo {
   background: #fff;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
