@@ -42,19 +42,15 @@ function TodoForm({ addTodo }) {
 function App() {
   const [todos, setTodos] = useState([
     {
-      text: "RADET",
+      text: "Distributed ledgers",
       isCompleted: false
     },
     {
-      text: "TELEKOM",
+      text: "Mobile computing",
       isCompleted: false
     },
     {
-      text: "ENEL",
-      isCompleted: false
-    },
-    {
-      text: "DISTRIGAZ",
+      text: "Parametric design",
       isCompleted: false
     }
   ]);
@@ -80,7 +76,7 @@ function App() {
   return (
     <div className="app">
       <div className='my'>
-      <div className='title'>AVIZE</div>
+      <div className='title'>&nbsp;</div>
       <div className="todo-list">
         {todos.map((todo, index) => (
           <Todo
@@ -97,7 +93,7 @@ function App() {
       <div>
         <ul>
            <li><a href='https://www.archdaily.com/946233/indias-new-parametric-temple-to-reinterpret-vernacular-design-in-koppur'>
-              Architecture and research firm rat[LAB] Studio and Shilpa Architects have designed a new temple in Koppur that reinterprets India's vernacular through parametric design. </a>
+              Architects have designed a new temple in Koppur through parametric design</a>
            </li>  
         </ul>  
       </div>
